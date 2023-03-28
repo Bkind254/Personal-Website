@@ -18,7 +18,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="item1" />
           </div>
-          <h4 className="title">Y2You</h4>
+          <h4 className="title">Y2Yu</h4>
           <p className="project-content">
             Y2you Downloader enables you to acquire high-quality MP3 and MP4
             media from YouTube and download it to your device.
@@ -35,7 +35,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="https://y2you.netlify.app"
+              href="https://y2yu.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -135,16 +135,18 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="item5" />
           </div>
-          <h4 className="title">AboutYourCountry</h4>
+          <h4 className="title">Store 42</h4>
           <p className="project-content">
-            A simple react project which tells you a little about your country
-            using Geocoding API.
+            An online shop using a sleek and modern interface, featuring a
+            shopping cart, products, and secure payment processing. The project
+            was developed to create an e-commerce space and the backend is
+            managed with Sanity.
           </p>
 
-          <ul>React , CSS</ul>
+          <ul>Next Js , CSS</ul>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Bkind254/What-About-my-Country"
+              href="https://github.com/Bkind254/Store-42"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -152,7 +154,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="https://aboutmycountry.netlify.app"
+              href="https://store-42.vercel.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
