@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import { MdOutlineEmail } from "react-icons/md";
+
 import { BsTwitter } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { useRef } from "react";
@@ -27,18 +27,6 @@ function Contact() {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>langatbrian02@gmail</h5>
-            <a
-              href="mailto:langatbrian02@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message
-            </a>
-          </article>
           <article className="contact__option">
             <BsTwitter className="contact__option-icon" />
             <h4>Twitter</h4>

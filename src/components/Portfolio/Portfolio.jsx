@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import { FaGithub } from "react-icons/fa";
 import IMG1 from "../../assets/project1.JPG";
 import IMG2 from "../../assets/project2.JPG";
 import IMG3 from "../../assets/project3.JPG";
@@ -32,7 +33,7 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <FaGithub />
             </a>
             <a
               href="https://y2yu.com/"
@@ -63,7 +64,7 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <FaGithub />
             </a>
             <a
               href="https://movieyard.netlify.app"
@@ -93,7 +94,7 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <FaGithub />
             </a>
             <a
               href="https://craftsmencreatives-ke.netlify.app"
@@ -124,7 +125,7 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <FaGithub />
             </a>
             <a href="#" className="btn btn-primary" rel="noreferrer">
               Check it out
@@ -151,7 +152,7 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <FaGithub />
             </a>
             <a
               href="https://store-42.vercel.app/"
@@ -182,7 +183,7 @@ function Portfolio() {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <FaGithub />
             </a>
             <a
               href="https://stormzyy.netlify.app"
