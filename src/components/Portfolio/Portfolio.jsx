@@ -6,76 +6,14 @@ import IMG2 from "../../assets/project2.JPG";
 import IMG3 from "../../assets/project3.JPG";
 import IMG4 from "../../assets/project4.JPG";
 import IMG5 from "../../assets/project5.JPG";
-import IMG6 from "../../assets/project6.JPG";
+import IMG7 from "../../assets/project7.JPG";
 
 function Portfolio() {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Projects</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="item1" />
-          </div>
-          <h4 className="title">Y2Yu</h4>
-          <p className="project-content">
-            Y2you Downloader enables you to acquire high-quality MP3 and MP4
-            media from YouTube and download it to your device.
-          </p>
-
-          <ul>React, NodeJs</ul>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/Bkind254/y2y"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://y2yu.com/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Check it out
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="item2" />
-          </div>
-          <h4 className="title">MovieYard</h4>
-          <p className="project-content">
-            This website serves as a platform for discovering movies by
-            facilitating a search function, although it does not support
-            streaming.
-          </p>
-
-          <ul>React , NodeJs</ul>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/Bkind254/Movie-Yard"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://movieyard.netlify.app"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Check it out
-            </a>
-          </div>
-        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG3} alt="item3" />
@@ -106,6 +44,68 @@ function Portfolio() {
             </a>
           </div>
         </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="item5" />
+          </div>
+          <h4 className="title">Otaku2</h4>
+          <p className="project-content">
+            Otaku2 lets anime fans search for any anime and read a concise
+            synopsis. Ideal for those who want a quick overview without
+            committing to a full series.
+          </p>
+
+          <ul>React CSS</ul>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/Bkind254/Otaku"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://otaku2.netlify.app"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it out
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="item1" />
+          </div>
+          <h4 className="title">Y2Yu</h4>
+          <p className="project-content">
+            Y2you Downloader enables you to acquire high-quality MP3 and MP4
+            media from YouTube and download it to your device.
+          </p>
+
+          <ul>React, NodeJs</ul>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/Bkind254/y2y"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://y2yu.com/"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it out
+            </a>
+          </div>
+        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG4} alt="item4" />
@@ -164,21 +164,22 @@ function Portfolio() {
             </a>
           </div>
         </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="item5" />
+            <img src={IMG2} alt="item2" />
           </div>
-          <h4 className="title">Stormzyy</h4>
+          <h4 className="title">MovieYard</h4>
           <p className="project-content">
-            A simple Weather Forecast app built using JavaScript, CSS and
-            Weather API.The project is currently Open-Sourced, ready for use for
-            the community.
+            This website serves as a platform for discovering movies by
+            facilitating a search function, although it does not support
+            streaming.
           </p>
 
-          <ul>HTML, CSS, JavaScript</ul>
+          <ul>React , NodeJs</ul>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Bkind254/WeatherApp"
+              href="https://github.com/Bkind254/Movie-Yard"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -186,7 +187,7 @@ function Portfolio() {
               <FaGithub />
             </a>
             <a
-              href="https://stormzyy.netlify.app"
+              href="https://movieyard.netlify.app"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

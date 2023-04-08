@@ -10,33 +10,6 @@ function Footer() {
       <a href="#" className="footer__logo" rel="noreferrer">
         BKIND
       </a>
-
-      <ul className="permalinks">
-        <li>
-          <a href="#" rel="noreferrer">
-            Home
-          </a>
-        </li>
-
-        <li>
-          <a href="#experience" rel="noreferrer">
-            Experience
-          </a>
-        </li>
-
-        <li>
-          <a href="#portfolio" rel="noreferrer">
-            Projects
-          </a>
-        </li>
-
-        <li>
-          <a href="#contact" rel="noreferrer">
-            Contact
-          </a>
-        </li>
-      </ul>
-
       <div className="footer__socials">
         <a
           href="https://twitter.com/Bkind___/"
@@ -62,7 +35,7 @@ function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; 2023. All rights reserved.</small>
+        <small>&copy; 2023. Developed by me 😊.</small>
       </div>
     </footer>
   );
