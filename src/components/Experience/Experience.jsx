@@ -5,8 +5,7 @@ import { GiCheckMark } from "react-icons/gi";
 function Experience() {
   return (
     <section id="experience">
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h2>Current Programming Language Expertise</h2>
 
       <div className="container experience__container">
         {/* FRONTEND DEV*/}

@@ -37,8 +37,7 @@ function About() {
        `}
       </style>
 
-      <h5>Hello I'm Brian Selim</h5>
-      <h2>Software Developer</h2>
+      <h2>Hi I'm Brian Selim</h2>
 
       <div className="container about__container">
         <div className="about__me image">
@@ -48,9 +47,9 @@ function About() {
         </div>
         <div className="about__content">
           <p>
-            I am a software developer based in Nakuru who is constantly learning
-            and building software and solutions. My arsenal of skills includes a
-            mastery of React, as well as proficiency in HTML, CSS, and
+            I am a front-end Software Engineer based in Nakuru with a great
+            passion for building things with code. My arsenal of skills includes
+            a mastery of React, as well as proficiency in HTML, CSS, and
             JavaScript, enabling me to deliver top-notch results with every
             project I tackle.
           </p>
