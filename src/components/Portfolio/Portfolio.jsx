@@ -110,24 +110,27 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="item4" />
           </div>
-          <h4 className="title">Personal Website</h4>
+          <h4 className="title">Food Website</h4>
           <p className="project-content">
-            This is a web-based personal portfolio that showcases a range of
-            content including experiences, projects, profile, and technical
-            skills. It's worth noting that the project has been Open Sourced.
+            This is a food/restaurant websites that helps showcase its food,
+            products and services.
           </p>
 
           <ul>React, CSS</ul>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/Bkind254/"
+              href="https://github.com/Bkind254/sushi"
               className="btn"
               target="_blank"
               rel="noreferrer"
             >
               <FaGithub />
             </a>
-            <a href="#" className="btn btn-primary" rel="noreferrer">
+            <a
+              href="https://ugali.netlify.app"
+              className="btn btn-primary"
+              rel="noreferrer"
+            >
               Check it out
             </a>
           </div>
